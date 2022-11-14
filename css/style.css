@@ -96,6 +96,9 @@ div.box-text img {
   height: 500px;
 }
 
+
+
+
 div.box-thumb-3 {
   background-image: url(../img/playstation-5-thumb.png);
   border-bottom: 2px solid blue;
@@ -121,14 +124,6 @@ div.box-thumb-7 {
   opacity: 70%;
 }
 
-div.box-thumb-8 {
-  background-image: url(../img/tony-hawks-pro-skater-1-2-store-art.jpg);
-}
-
-div.box-thumb-9 {
-  background-image: url(../img/crash-bandicoot-4-its-about-time-store-art.jpg);
-}
-
 div.jumbotron-2 {
   margin-top: 4.5rem;
   background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
@@ -142,7 +137,7 @@ img.ittakestwo {
 }
 
 img.ps4-img {
-  height: 200px;
+  height: 160px;
   margin: 0 auto;
 }
 
