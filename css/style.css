@@ -184,3 +184,7 @@ img.sielogo {
 a {
   color: white;
 }
+
+ul li{
+  list-style-type: none;
+}
