@@ -146,3 +146,26 @@ p.bigger{
   font-size: 1.3rem;
   color: #727272;
 }
+
+.grey-wrapper {
+  background-color: #bebcbb;
+}
+
+div.box-text3 img{
+  width: 50%;
+  padding: 3rem 0;
+}
+
+
+
+img.meno,
+img.settimana,
+img.ftp{
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.blue-wrapper {
+  background-color: #161c3b;
+  color: white;
+}
