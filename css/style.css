@@ -171,3 +171,16 @@ img.ftp {
 div.my-social img {
   width: 100%;
 }
+
+.azure-wrapper {
+  background-color: #00439c;
+  color: white;
+}
+
+img.sielogo {
+  width: 200px;
+}
+
+a {
+  color: white;
+}
