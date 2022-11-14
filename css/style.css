@@ -1,0 +1,13 @@
+.my-banner{
+  background-color: black;
+  height: 2rem;
+}
+
+.my-banner img{
+height: 1rem;
+}
+
+.navbar {
+  margin-top: 2rem;
+  
+}
