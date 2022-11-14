@@ -14,6 +14,7 @@ body {
 .my-banner {
   background-color: black;
   height: 2rem;
+  text-align: end;
 }
 
 .my-banner img {
@@ -151,8 +152,33 @@ p.bigger {
   background-color: #bebcbb;
 }
 
+div.vanish1 {
+  background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+
+
 div.box-text3 img {
-  width: 50%;
+  width: 40%;
+  padding: 3rem 0;
+}
+
+
+
+div.vanish2 {
+  background-image: url(../img/ps-now-april-featured-image-block.png);
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+div.box-text4 img {
+  width: 40%;
   padding: 3rem 0;
 }
 
@@ -185,6 +211,11 @@ a {
   color: white;
 }
 
-ul li{
+ul li {
   list-style-type: none;
+}
+
+span {
+  color: #1d82d3;
+  font-weight: bold;
 }
