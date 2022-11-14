@@ -25,6 +25,14 @@ header {
   height: 1rem;
 }
 
+.my-button {
+  border-radius: 20px;
+}
+
+img.search {
+  height: 50px;
+}
+
 .navbar {
   width: 100%;
 }
@@ -35,7 +43,6 @@ div.jumbotron {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  /* height: 675px; */
 }
 
 div.space {
@@ -78,12 +85,10 @@ div.box-thumb-9 img {
 }
 
 div.box-thumb-1 {
-  /* background-image: url(../img/returnal-listing-thumb-01-ps5.jpg); */
   border-radius: 20px;
 }
 
 div.box-thumb-2 {
-  /* background-image: url(../img/ratchet-and-clank-rift-apart-keyart.jpg); */
   border-radius: 20px;
 }
 
@@ -201,3 +206,4 @@ span {
   color: #1d82d3;
   font-weight: bold;
 }
+
