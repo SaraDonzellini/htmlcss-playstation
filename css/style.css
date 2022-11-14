@@ -29,6 +29,8 @@ div.jumbotron {
   height: 675px;
 }
 
+
+
 div.space {
   height: 280px;
 }
@@ -37,8 +39,9 @@ img.returnal {
   height: 3rem;
 }
 
-h1.white {
+h1 {
   font-size: 2.8rem;
+
 }
 
 p.white {
@@ -47,14 +50,72 @@ p.white {
 
 div.box-thumb-1,
 div.box-thumb-2 {
-  background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 150px;
+}
+
+div.box-thumb-3,
+div.box-thumb-4,
+div.box-thumb-5,
+div.box-thumb-6,
+div.box-thumb-7 {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 150px;
+  
+}
+
+div.box-thumb-1 {
+  background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
   border-radius: 20px;
 }
 
 div.box-thumb-2 {
-  background-image: url(../img/ratchet-and-clank-rift-apart-keyart.jpg)
+  background-image: url(../img/ratchet-and-clank-rift-apart-keyart.jpg);
+  border-radius: 20px;
+}
+
+div.box-text img{
+  height: 500px;
+}
+
+div.box-thumb-3 {
+  background-image: url(../img/playstation-5-thumb.png);
+  border-bottom: 2px solid blue;
+}
+
+div.box-thumb-4 {
+  background-image: url(../img/joypad-thumb.png);
+  opacity: 70%;
+}
+
+div.box-thumb-5 {
+  background-image: url(../img/headset-thumb.png);
+  opacity: 70%;
+}
+
+div.box-thumb-6 {
+  background-image: url(../img/remote-thumb.png);
+  opacity: 70%;
+}
+
+div.box-thumb-7 {
+  background-image: url(../img/camera-thumb.jpg);
+  opacity: 70%;
+}
+
+div.jumbotron-2 {
+  margin-top: 4.5rem;
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+img.ittakestwo {
+  height: 15rem;
+
 }
