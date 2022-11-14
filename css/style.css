@@ -1,5 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
 }
 
 .white {
@@ -134,4 +135,14 @@ div.jumbotron-2 {
 
 img.ittakestwo {
   height: 15rem;
+}
+
+img.ps4-img{
+  height: 200px;
+  margin: 0 auto;
+}
+
+p.bigger{
+  font-size: 1.3rem;
+  color: #727272;
 }
