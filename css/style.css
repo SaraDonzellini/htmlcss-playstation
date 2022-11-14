@@ -3,6 +3,10 @@ body {
   overflow-x: hidden;
 }
 
+header {
+  width: 100%;
+}
+
 .white {
   color: white;
 }
@@ -22,11 +26,11 @@ body {
 }
 
 .navbar {
-  margin-top: 2rem;
+  width: 100%;
 }
 
 div.jumbotron {
-  margin-top: 5rem;
+  margin-top: 7rem;
   background-image: url(../img/jumbo-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -50,12 +54,10 @@ p.white {
   font-weight: bold;
 }
 
-div.box-thumb-1,
-div.box-thumb-2 {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 150px;
+div.box-thumb-1 img,
+div.box-thumb-2 img {
+  width: 100%;
+  border-radius: 20px;
 }
 
 div.box-thumb-3,
@@ -69,23 +71,19 @@ div.box-thumb-7 {
   height: 150px;
 }
 
-div.box-thumb-8,
-div.box-thumb-9 {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 200px;
-  width: 200px;
+div.box-thumb-8 img,
+div.box-thumb-9 img {
+  width: 100%;
   border-radius: 20px;
 }
 
 div.box-thumb-1 {
-  background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+  /* background-image: url(../img/returnal-listing-thumb-01-ps5.jpg); */
   border-radius: 20px;
 }
 
 div.box-thumb-2 {
-  background-image: url(../img/ratchet-and-clank-rift-apart-keyart.jpg);
+  /* background-image: url(../img/ratchet-and-clank-rift-apart-keyart.jpg); */
   border-radius: 20px;
 }
 
@@ -152,23 +150,13 @@ p.bigger {
   background-color: #bebcbb;
 }
 
-div.vanish1 {
-  background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
-  background-position: right;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
 div.box-text3 img {
   width: 40%;
   padding: 3rem 0;
 }
 
-div.vanish2 {
-  background-image: url(../img/ps-now-april-featured-image-block.png);
-  background-position: right;
-  background-size: contain;
-  background-repeat: no-repeat;
+img.psplus {
+  width: 100%;
 }
 
 div.box-text4 img {
