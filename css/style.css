@@ -137,12 +137,12 @@ img.ittakestwo {
   height: 15rem;
 }
 
-img.ps4-img{
+img.ps4-img {
   height: 200px;
   margin: 0 auto;
 }
 
-p.bigger{
+p.bigger {
   font-size: 1.3rem;
   color: #727272;
 }
@@ -151,16 +151,14 @@ p.bigger{
   background-color: #bebcbb;
 }
 
-div.box-text3 img{
+div.box-text3 img {
   width: 50%;
   padding: 3rem 0;
 }
 
-
-
 img.meno,
 img.settimana,
-img.ftp{
+img.ftp {
   width: 100%;
   padding-bottom: 2rem;
 }
@@ -168,4 +166,8 @@ img.ftp{
 .blue-wrapper {
   background-color: #161c3b;
   color: white;
+}
+
+div.my-social img {
+  width: 100%;
 }
