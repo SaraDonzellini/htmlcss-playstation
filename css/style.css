@@ -89,6 +89,7 @@ div.box-thumb-7 {
   background-repeat: no-repeat;
   background-position: center;
   height: 150px;
+  transition: all 1s ease-out;
 }
 
 div.box-thumb-8 img,
@@ -203,11 +204,15 @@ img.sielogo {
 }
 
 div.box-thumb-1:hover,
-div.box-thumb-2:hover,
-div.box-thumb-8:hover,
-div.box-thumb-9:hover {
+div.box-thumb-2:hover {
   box-shadow: rgba(3, 102, 214, 0.9) 0px 0px 0px 3px;
   border-radius: 20px;
+  transform: translateY(-20px);
+
+}
+div.box-thumb-8:hover,
+div.box-thumb-9:hover {
+  transform: scale(1.1);
 }
 
 div.box-thumb-3:hover,
@@ -215,7 +220,6 @@ div.box-thumb-4:hover,
 div.box-thumb-5:hover,
 div.box-thumb-6:hover,
 div.box-thumb-7:hover {
-  border-bottom: 2px solid #00439c;
   opacity: 100%;
 }
 
