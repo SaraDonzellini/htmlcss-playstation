@@ -73,7 +73,7 @@ section.sifu{
 div.spotlight{
   position: relative;
   right: 60px;
-  top: 130px;
+  top: 100px;
 }
 
 section.upcoming {
@@ -95,4 +95,9 @@ section.genre {
 
 img.sielogo {
   width: 200px;
+}
+
+p.bigger {
+  color: #96959e;
+  font-size: 1.3rem;
 }
