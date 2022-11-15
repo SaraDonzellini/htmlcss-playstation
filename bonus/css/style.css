@@ -37,6 +37,7 @@ section#jumbo {
 }
 
 iframe{
+  z-index: 3;
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -47,4 +48,22 @@ section.latest {
 
 div.image-box-1 {
   background-image: url(../img/ps-indies-content-background-block-01-en-16jun21_004.webp);
+}
+
+section.rollerdome{
+  background-image: url(../img/rollerdrome-screenshot-06-en-25jul22_002.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* filter: contrast(80%) brightness(30%); */
+}
+
+div.spotlight{
+  position: relative;
+  right: 60px;
+  top: 130px;
+}
+
+div.separator {
+  background-image: url();
 }
