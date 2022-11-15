@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+header {
+  width: 100%;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.my-banner {
+  background-color: black;
+  height: 2rem;
+  text-align: end;
+}
+
+.my-banner img {
+  height: 1rem;
+}
+
+.my-button{
+  background-color: #007ee5;
+  border: none;
+  border-radius: 20px;
+}
+
+section#jumbo {
+  background-image: url(../img/ps-indies-video-hero-02-en-03mar21.jpg);
+  
+}
+
+.white {
+  color: white;
+}
+
+iframe{
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+section.latest {
+  background-image: url(../img/ps-indies-content-background-block-01-en-18jun21_003.webp);
+}
+
+div.image-box-1 {
+  background-image: url(../img/ps-indies-content-background-block-01-en-16jun21_004.webp);
+}
