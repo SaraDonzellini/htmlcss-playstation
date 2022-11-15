@@ -21,7 +21,7 @@ ul li {
   height: 1rem;
 }
 
-.my-button{
+.my-button {
   background-color: #007ee5;
   border: none;
   border-radius: 20px;
@@ -29,14 +29,13 @@ ul li {
 
 section#jumbo {
   background-image: url(../img/ps-indies-video-hero-02-en-03mar21.jpg);
-  
 }
 
 .white {
   color: white;
 }
 
-iframe{
+iframe {
   z-index: 3;
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -54,7 +53,7 @@ div.image-box-2 {
   background-image: url(../img/ps-indies-content-background-block-01-en-18jun21_003.webp);
 }
 
-section.rollerdome{
+section.rollerdome {
   background-image: url(../img/rollerdrome-screenshot-06-en-25jul22_002.webp);
   background-repeat: no-repeat;
   background-position: center;
@@ -62,7 +61,7 @@ section.rollerdome{
   /* filter: contrast(80%) brightness(30%); */
 }
 
-section.sifu{
+section.sifu {
   background-image: url(../img/sifu-screenshot-02-en-23feb22_005.webp);
   background-repeat: no-repeat;
   background-position: center;
@@ -70,7 +69,7 @@ section.sifu{
   /* filter: contrast(80%) brightness(30%); */
 }
 
-div.spotlight{
+div.spotlight {
   position: relative;
   right: 60px;
   top: 100px;
