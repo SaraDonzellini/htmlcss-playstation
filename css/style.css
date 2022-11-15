@@ -7,6 +7,19 @@ header {
   width: 100%;
 }
 
+a {
+  color: white;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+span {
+  color: #1d82d3;
+  font-weight: bold;
+}
+
 .white {
   color: white;
 }
@@ -189,15 +202,10 @@ img.sielogo {
   width: 200px;
 }
 
-a {
-  color: white;
-}
-
-ul li {
-  list-style-type: none;
-}
-
-span {
-  color: #1d82d3;
-  font-weight: bold;
+div.box-thumb-1:hover,
+div.box-thumb-2:hover,
+div.box-thumb-8:hover,
+div.box-thumb-9:hover {
+  box-shadow: rgba(3, 102, 214, 0.9) 0px 0px 0px 3px;
+  border-radius: 20px;
 }
