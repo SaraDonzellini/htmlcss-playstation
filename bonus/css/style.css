@@ -85,5 +85,14 @@ div.video-box-2 {
 }
 
 section.genre {
-  background-image: url(../img/sifu-screenshot-02-en-23feb22_005.webp);
+  background-image: url(../img/ps-indies-content-background-block-01-en-18jun21_004.webp);
+}
+
+.azure-wrapper {
+  background-color: #00439c;
+  color: white;
+}
+
+img.sielogo {
+  width: 200px;
 }
